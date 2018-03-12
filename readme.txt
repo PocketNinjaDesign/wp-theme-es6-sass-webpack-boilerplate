@@ -13,7 +13,7 @@ A starter theme called Front End Structure.
 
 == Description ==
 
-A theme with ES6 JS with Webpack and Sass, Atomic Design Structure with Bourbon & Neat
+A theme with ES6 JS with Webpack and Sass, Atomic Design Structure
 
 == Installation ==
 

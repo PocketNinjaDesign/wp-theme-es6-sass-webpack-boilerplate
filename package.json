@@ -5,7 +5,7 @@
   "main": "Gulpfile.js",
   "scripts": {
     "watch": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --config .eslintrc.json --format stylish dev/**/*.js"
   },
   "author": "Pocketninja.design",
   "license": "ISC",
@@ -16,6 +16,9 @@
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.7",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",

@@ -1,4 +1,3 @@
-
 export default class World {
   constructor(name = 'Bob') {
     this.name = name;

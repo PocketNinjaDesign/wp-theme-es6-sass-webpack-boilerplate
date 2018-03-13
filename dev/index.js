@@ -1,12 +1,13 @@
 
 import World from './hello/World';
 
-import "../sass/style.scss";
+import '../sass/style.scss';
 
-let $ = window.jQuery;
-let newWorld = new World('Jimi');
-console.log(newWorld.sayHello());
+const $ = window.jQuery;
+const newWorld = new World('Jimi');
 
 $(() => {
-  $('body').addClass('SUCCESS-WHOOOOHOOOOOO');
+  $('body')
+    .addClass('SUCCESS-WHOOOOHOOOOOO')
+    .prepend($('<h1/>').html(newWorld.sayHello()));
 });

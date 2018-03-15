@@ -20,6 +20,8 @@ clone the project into your theme folder of the wordpress site or separate so yo
 $ npm install
 ```
 
+**Step 1:**
+
 The theme name is called "Front End Structure" if you want to change it to something else then as per the instructions found on https://github.com/automattic/_s
 
 So if you wanted to name it to "Whatever You Want"
@@ -30,6 +32,9 @@ So if you wanted to name it to "Whatever You Want"
 4. Search for: Front_End_Structure and replace with: Whatever_You_Want
 5. Search for: front-end-structure- and replace with: whatever-you-want-
 
+**Step 2:**
+
+Don't forget to edit the comments in /sass/style.scss
 
 ## Usage
 

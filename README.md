@@ -52,7 +52,7 @@ eslint is added to the project.  In order to run type the following in the cmd l
 $ npm run lint
 ```
 
-The eslint config file "exlintrc.json" extends Airbnb and ignores line endings.
+The eslint config file "eslintrc.json" extends Airbnb and ignores line endings.
 
 ### **Jest**
 
